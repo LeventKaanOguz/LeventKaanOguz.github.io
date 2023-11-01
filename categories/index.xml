@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Levent Kaan Oğuz</title>
+        <link>https://leventkaanoguz.com/categories/</link>
+        <description>Categories - Category - Levent Kaan Oğuz</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</managingEditor>
+            <webMaster>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</webMaster><copyright>Levent Kaan Oğuz</copyright><atom:link href="https://leventkaanoguz.com/categories/" rel="self" type="application/rss+xml" /></channel>
+</rss>

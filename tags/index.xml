@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Levent Kaan Oğuz</title>
+        <link>https://leventkaanoguz.com/tags/</link>
+        <description>Tags - Tag - Levent Kaan Oğuz</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</managingEditor>
+            <webMaster>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</webMaster><copyright>Levent Kaan Oğuz</copyright><lastBuildDate>Thu, 02 Nov 2023 00:43:23 &#43;0300</lastBuildDate><atom:link href="https://leventkaanoguz.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>GitHub</title>
+    <link>https://leventkaanoguz.com/tags/github/</link>
+    <pubDate>Thu, 02 Nov 2023 00:43:23 &#43;0300</pubDate>
+    <author>Levent Kaan Oğuz</author>
+    <guid>https://leventkaanoguz.com/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Hugo</title>
+    <link>https://leventkaanoguz.com/tags/hugo/</link>
+    <pubDate>Thu, 02 Nov 2023 00:43:23 &#43;0300</pubDate>
+    <author>Levent Kaan Oğuz</author>
+    <guid>https://leventkaanoguz.com/tags/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

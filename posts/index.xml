@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Levent Kaan Oğuz</title>
+        <link>https://leventkaanoguz.com/posts/</link>
+        <description>All Posts | Levent Kaan Oğuz</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</managingEditor>
+            <webMaster>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</webMaster><copyright>Levent Kaan Oğuz</copyright><lastBuildDate>Thu, 02 Nov 2023 00:43:23 &#43;0300</lastBuildDate><atom:link href="https://leventkaanoguz.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Using GitHub Pages to Create a Blog</title>
+    <link>https://leventkaanoguz.com/using-github-pages-to-create-a-blog/</link>
+    <pubDate>Thu, 02 Nov 2023 00:43:23 &#43;0300</pubDate>
+    <author>Levent Kaan Oğuz</author>
+    <guid>https://leventkaanoguz.com/using-github-pages-to-create-a-blog/</guid>
+    <description><![CDATA[Prerequisites GitHub Account: You can open from here. ]]></description>
+</item>
+</channel>
+</rss>
