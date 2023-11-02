@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/leventkaanoguz.com\/using-github-pages-to-create-a-blog\/"
-        },"genre": "posts","keywords": "GitHub, Hugo","wordcount":  65 ,
+        },"genre": "posts","keywords": "GitHub, Hugo","wordcount":  388 ,
         "url": "https:\/\/leventkaanoguz.com\/using-github-pages-to-create-a-blog\/","datePublished": "2023-11-02T00:43:23+03:00","dateModified": "2023-11-02T00:25:13+03:00","license": "Levent Kaan Oğuz","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Using GitHub Pages to Create a Blog</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://leventkaanoguz.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levent Kaan Oğuz</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-02">2023-11-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;65 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-02">2023-11-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;388 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -113,16 +113,42 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#initialization">Initialization</a>
+      <ul>
+        <li><a href="#github-repositories">GitHub Repositories</a></li>
+        <li><a href="#creating-website">Creating Website</a></li>
+      </ul>
+    </li>
+    <li><a href="#deploying-your-website">Deploying Your Website</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li><strong>GitHub Account:</strong> You can open one from <a href="https://github.com" target="_blank" rel="noopener noreffer ">here</a>.</li>
-<li><strong>Hugo Installation:</strong> You should follow the instructions appropiate for your system <a href="https://gohugo.io/installation/" target="_blank" rel="noopener noreffer ">here</a>.</li>
+<li><strong>GitHub Account:</strong> You can open one from <a href="https://github.com" target="_blank" rel="noopener noreffer ">here</a>. Also, basic GitHub knowledge is recommended but it is not a prerequisite.</li>
+<li><strong>Hugo Extended Installation:</strong> You should follow the instructions appropiate for your system <a href="https://gohugo.io/installation/" target="_blank" rel="noopener noreffer ">here</a>.</li>
 <li><strong>A Preffered Choice of Theme:</strong> You can of course build your own theme but it is better to choose one from <a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">here</a>. For instance, I use <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
 <li>Love for phys&hellip; just kidding, the other thing we need is to desire for this website.</li>
 </ul>
-</div><div class="post-footer" id="post-footer">
+<p>In this article, I will be using Windows 11 and Hugo Extended installation via Winget. You can use whatever OS you want; however, I highly encourage you to install extended version of Hugo. In this example, I will use my own name in code blocks or in many other places.</p>
+<h2 id="initialization">Initialization</h2>
+<h3 id="github-repositories">GitHub Repositories</h3>
+<p>First things first, you need to create two GitHub repositories. One will be called <code>_Your_Username_.github.io</code> and other one will be <code>blog</code>. The <code>blog</code> repository will be the place we store the code and, so called, <code>LeventKaanOguz.github.io</code> repository will be used to deploy our website.</p>
+<p>After creating your website using below section, you should create a <code>.\public\</code> folder under the main folder (like <code>blog\public</code>) and also create a folder under somewhere else as like <code>LeventKaanOguz.github.io</code> and push a README.md file. Also add <code>LeventKaanOguz.github.io</code> as a submodule to <code>blog\public</code>.</p>
+<h3 id="creating-website">Creating Website</h3>
+<p>You can create a website via Powershell (terminal shell in Windows) using</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">hugo</span> <span class="n">new</span> <span class="n">site</span> <span class="p">&lt;</span><span class="n">name</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Change directory to new created folder and to the <code>.\themes\</code>. Now we need to install our theme. Almost all of the themes that are in <a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo Themes</a> uses GitHub, so you can clone that you want directly from GitHub. We will be using <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme, which is this website&rsquo;s theme. You can find detailed instruction on <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">their website</a>.</p>
+<p>To start your Hugo website in development mode, you should run <code>hugo serve</code> command. This will start your webserver at port <code>1313</code> (You can access it via <a href="http://localhost:1313/" target="_blank" rel="noopener noreffer ">http://localhost:1313/</a>) and what you will see will pretty much some empty page without any posts.</p>
+<p>To create a post you should use the command <code>hugo new posts/POST_NAME.md</code> and write down all your Markdown article.</p>
+<h2 id="deploying-your-website">Deploying Your Website</h2>
+<p>Now only thing left is to deploy your website. The only thing you need to do is to push all the changes in <code>blog\posts</code> and now you are done.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
