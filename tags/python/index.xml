@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Python - Tag - Levent Kaan Oğuz</title>
+        <link>https://leventkaanoguz.com/tags/python/</link>
+        <description>Python - Tag - Levent Kaan Oğuz</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</managingEditor>
+            <webMaster>kaan.oguz@metu.edu.tr (Levent Kaan Oğuz)</webMaster><copyright>Levent Kaan Oğuz</copyright><lastBuildDate>Mon, 06 Nov 2023 01:03:08 &#43;0300</lastBuildDate><atom:link href="https://leventkaanoguz.com/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>Python for Research - HarvardX - Case Study 1 Solution</title>
+    <link>https://leventkaanoguz.com/python-for-research-case-study-1-solution/</link>
+    <pubDate>Mon, 06 Nov 2023 01:03:08 &#43;0300</pubDate>
+    <author>Author</author>
+    <guid>https://leventkaanoguz.com/python-for-research-case-study-1-solution/</guid>
+    <description><![CDATA[Solution to Case Study 1 of Python for Research by HarvardX.]]></description>
+</item>
+</channel>
+</rss>
