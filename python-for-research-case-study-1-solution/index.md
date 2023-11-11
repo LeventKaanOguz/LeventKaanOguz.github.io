@@ -64,18 +64,18 @@ For simplicity, I will skip Exercise 3. Since it asks us to encode a sentence an
 ```python
 # write your code here
 def encoding(message, key):
-encoded_message = ""
+  encoded_message = ""
   for i in message:
     new_letter = positions[i]+key
     if new_letter > 26:
       new_letter %= 27
     encoded_message += alphabet[new_letter]
-    return encoded_message
+  return encoded_message
 
 print(encoded_message=encoding(message, key=3))
 ```
 
 Observe that we had to take the modulus of `new_letter` if it increases more than 26. 
 
-This problem has one more exercise; however, I won't be explaining it since decoding process is just backward, negative, of the encoding.
+This problem has one more exercise; however, I won't be explaining it since the decoding process is just backward, negative, of the encoding.
 

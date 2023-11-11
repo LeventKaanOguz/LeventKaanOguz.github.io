@@ -18,7 +18,7 @@
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://leventkaanoguz.com/python-for-research-case-study-1-solution/" /><link rel="prev" href="https://leventkaanoguz.com/using-github-pages-to-create-a-blog/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://leventkaanoguz.com/python-for-research-case-study-1-solution/" /><link rel="prev" href="https://leventkaanoguz.com/using-github-pages-to-create-a-blog/" /><link rel="next" href="https://leventkaanoguz.com/python-for-research-case-study-2-solution/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/leventkaanoguz.com\/python-for-research-case-study-1-solution\/"
-        },"genre": "posts","keywords": "Python","wordcount":  642 ,
+        },"genre": "posts","keywords": "Python","wordcount":  643 ,
         "url": "https:\/\/leventkaanoguz.com\/python-for-research-case-study-1-solution\/","datePublished": "2023-11-06T01:03:08+03:00","dateModified": "2020-03-04T15:58:26+08:00","license": "Levent Kaan Oğuz","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Python for Research - HarvardX - Case Study 1 Solution</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://leventkaanoguz.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levent Kaan Oğuz</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-06">2023-11-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;642 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-06">2023-11-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;643 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -223,19 +223,19 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># write your code here</span>
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">encoding</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl"><span class="n">encoded_message</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">encoded_message</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">message</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="n">new_letter</span> <span class="o">=</span> <span class="n">positions</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">key</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">new_letter</span> <span class="o">&gt;</span> <span class="mi">26</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">      <span class="n">new_letter</span> <span class="o">%=</span> <span class="mi">27</span>
 </span></span><span class="line"><span class="cl">    <span class="n">encoded_message</span> <span class="o">+=</span> <span class="n">alphabet</span><span class="p">[</span><span class="n">new_letter</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">encoded_message</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">encoded_message</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">encoded_message</span><span class="o">=</span><span class="n">encoding</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="mi">3</span><span class="p">))</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Observe that we had to take the modulus of <code>new_letter</code> if it increases more than 26.</p>
-<p>This problem has one more exercise; however, I won&rsquo;t be explaining it since decoding process is just backward, negative, of the encoding.</p></div><div class="post-footer" id="post-footer">
+<p>This problem has one more exercise; however, I won&rsquo;t be explaining it since the decoding process is just backward, negative, of the encoding.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -258,7 +258,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/using-github-pages-to-create-a-blog/" class="prev" rel="prev" title="Using GitHub Pages to Create a Blog"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Using GitHub Pages to Create a Blog</a></div>
+    <div class="post-nav"><a href="/using-github-pages-to-create-a-blog/" class="prev" rel="prev" title="Using GitHub Pages to Create a Blog"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Using GitHub Pages to Create a Blog</a>
+            <a href="/python-for-research-case-study-2-solution/" class="next" rel="next" title="Python for Research - HarvardX - Case Study 2 Solution">Python for Research - HarvardX - Case Study 2 Solution<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">
