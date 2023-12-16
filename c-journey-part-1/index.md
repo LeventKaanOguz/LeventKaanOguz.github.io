@@ -22,7 +22,7 @@ I will mostly use the first book mentioned because it seemed more comprehensive 
 
 ### How does C++ work?
 
-It was really fun to use the power of GitHub Copilot and create a mermaid diagram to show how a C++ program works or created.
+It was really fun to use the power of GitHub Copilot and create a mermaid diagram to show how a C++ program works or is created.
 
 1. We write the C++ source code, for example below code
 ```cpp
