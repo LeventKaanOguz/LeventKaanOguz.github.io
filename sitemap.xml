@@ -2,13 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://leventkaanoguz.com/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://leventkaanoguz.com/posts/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://leventkaanoguz.com/tags/c&#43;&#43;/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/categories/c&#43;&#43;-journey/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/c-journey-part-1/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/categories/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/posts/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/tags/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://leventkaanoguz.com/tags/python/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/categories/python-for-research/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://leventkaanoguz.com/python-for-research-case-study-2-solution/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://leventkaanoguz.com/tags/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://leventkaanoguz.com/python-for-research-case-study-1-solution/</loc><lastmod>2020-03-04T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://leventkaanoguz.com/tags/github/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://leventkaanoguz.com/tags/hugo/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://leventkaanoguz.com/using-github-pages-to-create-a-blog/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://leventkaanoguz.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://leventkaanoguz.com/tags/github/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/tags/hugo/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://leventkaanoguz.com/using-github-pages-to-create-a-blog/</loc><lastmod>2023-11-02T00:25:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
