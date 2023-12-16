@@ -62,3 +62,12 @@ In the above explanation, we have used a code you might remember
 2. In the second line, we see a `main` function definition. Every C++ program has a main function, it is the first function that runs. 
 3. In the fourth line, we see `std::cout << "Hello world!" << std::endl;`. This line of code prints out `Hello world!` sentence to the console and then gets to a new line.
 4. In the last line, we see `return 0;`. In this function, we must return an integer in order code to work. In C++, as a convention, returning 0 from the `main` function indicates that it ran successfully.
+
+#### What are `iostream` and `std`?
+
+So, here is the question: What are the `iostream` and `std`? Let's look for `iostream` first. In the first line of the mentioned code, there is a statement as `#include<iostream>`. This indicates a preprocessor directive since it starts with `#`. The `include` directive causes the preprocessor to include the contents of another file in the program. They are not compiled or executed but imported inside the source code we have written. But what does it do? It does include input-output stream code that allows C++ to display output to screen and read inputs from keyboard.
+
+But what about `std`? Firstly, you can "use" it like adding `using namespace std;`; however, it is really not a good practice as we will study on next articles. Let's continue with our main problem. In here [here](https://cplusplus.com/forum/beginner/175445/), it says that "The reason the program needs access to the std namespace is because every name created by the `iostream` file is part of that namespace." 
+
+From now on, I will be writing all articles via LazyVim, which is a Neovim distribution. I think it will take some time to getting used to but I also believe that it will help me develop myself more by achieving mastery in my development environment.
+
